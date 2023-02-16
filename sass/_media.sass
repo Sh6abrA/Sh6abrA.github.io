@@ -5,7 +5,12 @@
         height: 361px
     .catalog_item
         width: 300px
-@media (max-width: 991px)
+    .services
+        &_img
+            left: -350px
+        &_list_item
+            margin-top: 25px
+@media (max-width: 992px)
     .promo_img
         width: 358px
         height: 269px
@@ -28,3 +33,40 @@
             font-weight: 700
             font-size: 30px
             line-height: 36px
+    .services
+        &_img
+            display: none
+@media (max-width: 767px)
+    .promo
+        &_header
+            text-align: center
+        &_subheader
+            text-align: center
+        &_img
+            display: none
+        &_btn
+            display: block
+            margin: 0 auto
+            margin-top: 50px
+    .about
+        height: 1450px
+        margin-top: 80px
+        &_paragraph
+            margin-top: 60px
+            flex-direction: column
+        &_descr            
+            text-align: center
+            margin-top: 20px
+            &:nth-child(1)
+                text-align: center
+        ._change_order
+            order: -1
+        ._change_width
+            width: 400px
+    .catalog
+        .catalog_change
+            height: 182px
+            width: 100%
+            padding-top: 74px
+            
+                
