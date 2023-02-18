@@ -170,6 +170,7 @@ nav
         filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25))
         border-radius: 37px
         &_descr
+            position: relative
             display: flex
             flex-direction: column
             justify-content: space-evenly
@@ -178,6 +179,17 @@ nav
             height: 114px
             border-bottom-left-radius: 37px
             border-bottom-right-radius: 37px
+            &:after
+                content: ''
+                position: absolute
+                display: block
+                width: 50px
+                height: 50px
+                left: 100%
+                top: 100%
+                transform: translateX(-85%) translateY(-85%)
+                background: url(../img/icon_right.svg) center (center / cover) no-repeat
+                 
         &_size
             font-weight: 500
             font-size: 16px
