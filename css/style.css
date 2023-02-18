@@ -233,6 +233,109 @@ nav {
   top: 4px;
 }
 
+/* line 149, ../PLITKI/src/sass/_general.sass */
+.tiles {
+  padding-top: 60px;
+  min-height: 1182px;
+}
+
+/* line 152, ../PLITKI/src/sass/_general.sass */
+.tiles_title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 59px;
+  color: #000000;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 159, ../PLITKI/src/sass/_general.sass */
+.tiles_header {
+  margin-top: 34px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FECF00;
+  text-align: center;
+}
+
+/* line 166, ../PLITKI/src/sass/_general.sass */
+.tiles_item {
+  margin: 0 auto;
+  margin-top: 21px;
+  background: url(../img/1.png) center center/cover no-repeat;
+  width: 360px;
+  height: 360px;
+  display: flex;
+  align-items: flex-end;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.25));
+  border-radius: 37px;
+}
+
+/* line 176, ../PLITKI/src/sass/_general.sass */
+.tiles_item_descr {
+  background: rgba(0, 0, 0, 0.5);
+  width: 360px;
+  height: 114px;
+  padding-top: 10px;
+  border-bottom-left-radius: 37px;
+  border-bottom-right-radius: 37px;
+}
+
+/* line 183, ../PLITKI/src/sass/_general.sass */
+.tiles_item_size {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* line 189, ../PLITKI/src/sass/_general.sass */
+.tiles_item_price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FECF00;
+  margin-top: 16px;
+  text-align: center;
+}
+
+/* line 196, ../PLITKI/src/sass/_general.sass */
+.tiles_item_stying {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FECF00;
+  margin-top: 16px;
+  text-align: center;
+}
+
+/* line 203, ../PLITKI/src/sass/_general.sass */
+.tiles .tile_2 {
+  background: url(../img/2.png) center center/cover no-repeat;
+}
+
+/* line 205, ../PLITKI/src/sass/_general.sass */
+.tiles .tile_3 {
+  background: url(../img/3.png) center center/cover no-repeat;
+}
+
+/* line 207, ../PLITKI/src/sass/_general.sass */
+.tiles .tile_4 {
+  background: url(../img/4.png) center center/cover no-repeat;
+}
+
+/* line 209, ../PLITKI/src/sass/_general.sass */
+.tiles .tile_5 {
+  background: url(../img/5.png) center center/cover no-repeat;
+}
+
+/* line 211, ../PLITKI/src/sass/_general.sass */
+.tiles .tile_6 {
+  background: url(../img/6.png) center center/cover no-repeat;
+}
+
 @media (max-width: 1200px) {
   /* line 2, ../PLITKI/src/sass/_media.sass */
   .promo_img {
