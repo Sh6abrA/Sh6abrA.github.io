@@ -3,12 +3,12 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 2, ../PLITKI/src/sass/_general.sass */
+/* line 3, ../PLITKI/src/sass/_general.sass */
 header {
   position: relative;
 }
 
-/* line 4, ../PLITKI/src/sass/_general.sass */
+/* line 5, ../PLITKI/src/sass/_general.sass */
 nav {
   position: fixed;
   width: 100%;
@@ -17,7 +17,7 @@ nav {
   z-index: 5;
 }
 
-/* line 10, ../PLITKI/src/sass/_general.sass */
+/* line 11, ../PLITKI/src/sass/_general.sass */
 .menu {
   display: flex;
   justify-content: space-between;
@@ -26,7 +26,7 @@ nav {
   list-style-type: none;
 }
 
-/* line 16, ../PLITKI/src/sass/_general.sass */
+/* line 17, ../PLITKI/src/sass/_general.sass */
 .menu_link {
   font-weight: 400;
   font-size: 20px;
@@ -34,26 +34,26 @@ nav {
   color: #FECF00;
 }
 
-/* line 21, ../PLITKI/src/sass/_general.sass */
+/* line 22, ../PLITKI/src/sass/_general.sass */
 .menu_link:hover {
   font-weight: 600;
   color: #FECF00;
 }
 
-/* line 25, ../PLITKI/src/sass/_general.sass */
+/* line 26, ../PLITKI/src/sass/_general.sass */
 .promo {
   padding-top: 131px;
   padding-left: 5px;
 }
 
-/* line 28, ../PLITKI/src/sass/_general.sass */
+/* line 29, ../PLITKI/src/sass/_general.sass */
 .promo_header {
   font-weight: 900;
   font-size: 60px;
   color: #000000;
 }
 
-/* line 32, ../PLITKI/src/sass/_general.sass */
+/* line 33, ../PLITKI/src/sass/_general.sass */
 .promo_subheader {
   margin-top: 48px;
   font-weight: 600;
@@ -62,7 +62,7 @@ nav {
   color: #000000;
 }
 
-/* line 38, ../PLITKI/src/sass/_general.sass */
+/* line 39, ../PLITKI/src/sass/_general.sass */
 .promo_btn {
   font-weight: 600;
   font-size: 20px;
@@ -72,11 +72,12 @@ nav {
   width: 228px;
   height: 60px;
   background: #FECF00;
+  border-color: #FECF00;
   border-radius: 17px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.44));
 }
 
-/* line 49, ../PLITKI/src/sass/_general.sass */
+/* line 41, ../PLITKI/src/sass/_general.sass */
 .promo_img {
   background: url(../img/Logo.png) center center/cover no-repeat;
   padding-left: 15px;
@@ -84,7 +85,7 @@ nav {
   height: 384px;
 }
 
-/* line 54, ../PLITKI/src/sass/_general.sass */
+/* line 46, ../PLITKI/src/sass/_general.sass */
 .about {
   margin-top: 150px;
   min-height: 1372px;
@@ -93,7 +94,7 @@ nav {
   padding-top: 28px;
 }
 
-/* line 60, ../PLITKI/src/sass/_general.sass */
+/* line 52, ../PLITKI/src/sass/_general.sass */
 .about_paragraph {
   display: flex;
   justify-content: space-between;
@@ -101,14 +102,14 @@ nav {
   margin-top: 25px;
 }
 
-/* line 65, ../PLITKI/src/sass/_general.sass */
+/* line 57, ../PLITKI/src/sass/_general.sass */
 .about_img {
   width: 400px;
   height: 400px;
   border-radius: 100%;
 }
 
-/* line 69, ../PLITKI/src/sass/_general.sass */
+/* line 61, ../PLITKI/src/sass/_general.sass */
 .about_descr {
   width: 495px;
   font-weight: 700;
@@ -118,12 +119,12 @@ nav {
   color: #000000;
 }
 
-/* line 76, ../PLITKI/src/sass/_general.sass */
+/* line 68, ../PLITKI/src/sass/_general.sass */
 .about_descr:nth-child(1) {
   text-align: left;
 }
 
-/* line 78, ../PLITKI/src/sass/_general.sass */
+/* line 70, ../PLITKI/src/sass/_general.sass */
 .catalog {
   width: 100%;
   background-color: #252525;
@@ -131,7 +132,7 @@ nav {
   min-height: 728px;
 }
 
-/* line 83, ../PLITKI/src/sass/_general.sass */
+/* line 75, ../PLITKI/src/sass/_general.sass */
 .catalog_header {
   display: block;
   color: #FECF00;
@@ -142,7 +143,7 @@ nav {
   line-height: 49px;
 }
 
-/* line 91, ../PLITKI/src/sass/_general.sass */
+/* line 83, ../PLITKI/src/sass/_general.sass */
 .catalog_item {
   margin: 0 auto;
   margin-top: 83px;
@@ -158,29 +159,46 @@ nav {
   border: 7px solid #FECF00;
 }
 
-/* line 104, ../PLITKI/src/sass/_general.sass */
+/* line 96, ../PLITKI/src/sass/_general.sass */
 .catalog_item2 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/catalog2.png) center center/cover no-repeat;
 }
 
-/* line 106, ../PLITKI/src/sass/_general.sass */
+/* line 98, ../PLITKI/src/sass/_general.sass */
 .catalog_item3 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/catalog3.png) center center/cover no-repeat;
 }
 
-/* line 108, ../PLITKI/src/sass/_general.sass */
+/* line 100, ../PLITKI/src/sass/_general.sass */
 .services {
   background-color: #252525;
-  min-height: 728px;
+  min-height: 800px;
   padding-top: 53px;
 }
 
-/* line 112, ../PLITKI/src/sass/_general.sass */
+/* line 104, ../PLITKI/src/sass/_general.sass */
+.services_more {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  margin-top: 48px;
+  width: 228px;
+  height: 60px;
+  background: #FECF00;
+  border-color: #FECF00;
+  border-radius: 17px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.44));
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+/* line 108, ../PLITKI/src/sass/_general.sass */
 .services_block {
   position: relative;
 }
 
-/* line 114, ../PLITKI/src/sass/_general.sass */
+/* line 110, ../PLITKI/src/sass/_general.sass */
 .services_img {
   position: absolute;
   left: -250px;
@@ -190,7 +208,7 @@ nav {
   height: 603px;
 }
 
-/* line 121, ../PLITKI/src/sass/_general.sass */
+/* line 117, ../PLITKI/src/sass/_general.sass */
 .services_header {
   width: 100%;
   text-align: center;
@@ -199,7 +217,7 @@ nav {
   color: #FECF00;
 }
 
-/* line 127, ../PLITKI/src/sass/_general.sass */
+/* line 123, ../PLITKI/src/sass/_general.sass */
 .services_list {
   display: flex;
   flex-direction: column;
@@ -209,13 +227,13 @@ nav {
   list-style-type: none;
 }
 
-/* line 134, ../PLITKI/src/sass/_general.sass */
+/* line 130, ../PLITKI/src/sass/_general.sass */
 .services_list_item {
   position: relative;
   margin-top: 35px;
 }
 
-/* line 137, ../PLITKI/src/sass/_general.sass */
+/* line 133, ../PLITKI/src/sass/_general.sass */
 .services_list_item_title {
   display: inline-block;
   color: #FECF00;
@@ -223,7 +241,7 @@ nav {
   font-size: 30px;
 }
 
-/* line 142, ../PLITKI/src/sass/_general.sass */
+/* line 138, ../PLITKI/src/sass/_general.sass */
 .services_list_item_img {
   position: absolute;
   display: inline-block;
@@ -233,13 +251,13 @@ nav {
   top: 4px;
 }
 
-/* line 149, ../PLITKI/src/sass/_general.sass */
+/* line 145, ../PLITKI/src/sass/_general.sass */
 .tiles {
   padding-top: 60px;
   min-height: 1182px;
 }
 
-/* line 152, ../PLITKI/src/sass/_general.sass */
+/* line 148, ../PLITKI/src/sass/_general.sass */
 .tiles_title {
   font-weight: 800;
   font-size: 48px;
@@ -249,7 +267,7 @@ nav {
   text-align: center;
 }
 
-/* line 159, ../PLITKI/src/sass/_general.sass */
+/* line 155, ../PLITKI/src/sass/_general.sass */
 .tiles_header {
   margin-top: 34px;
   font-weight: 700;
@@ -259,7 +277,7 @@ nav {
   text-align: center;
 }
 
-/* line 166, ../PLITKI/src/sass/_general.sass */
+/* line 162, ../PLITKI/src/sass/_general.sass */
 .tiles_item {
   margin: 0 auto;
   margin-top: 21px;
@@ -272,7 +290,7 @@ nav {
   border-radius: 37px;
 }
 
-/* line 176, ../PLITKI/src/sass/_general.sass */
+/* line 172, ../PLITKI/src/sass/_general.sass */
 .tiles_item_descr {
   display: flex;
   flex-direction: column;
@@ -284,7 +302,7 @@ nav {
   border-bottom-right-radius: 37px;
 }
 
-/* line 185, ../PLITKI/src/sass/_general.sass */
+/* line 181, ../PLITKI/src/sass/_general.sass */
 .tiles_item_size {
   font-weight: 500;
   font-size: 16px;
@@ -293,7 +311,7 @@ nav {
   text-align: center;
 }
 
-/* line 191, ../PLITKI/src/sass/_general.sass */
+/* line 187, ../PLITKI/src/sass/_general.sass */
 .tiles_item_price {
   font-weight: 700;
   font-size: 16px;
@@ -302,7 +320,7 @@ nav {
   text-align: center;
 }
 
-/* line 197, ../PLITKI/src/sass/_general.sass */
+/* line 193, ../PLITKI/src/sass/_general.sass */
 .tiles_item_stying {
   font-weight: 700;
   font-size: 16px;
@@ -311,27 +329,27 @@ nav {
   text-align: center;
 }
 
-/* line 203, ../PLITKI/src/sass/_general.sass */
+/* line 199, ../PLITKI/src/sass/_general.sass */
 .tiles .tile_2 {
   background: url(../img/2.png) center center/cover no-repeat;
 }
 
-/* line 205, ../PLITKI/src/sass/_general.sass */
+/* line 201, ../PLITKI/src/sass/_general.sass */
 .tiles .tile_3 {
   background: url(../img/3.png) center center/cover no-repeat;
 }
 
-/* line 207, ../PLITKI/src/sass/_general.sass */
+/* line 203, ../PLITKI/src/sass/_general.sass */
 .tiles .tile_4 {
   background: url(../img/4.png) center center/cover no-repeat;
 }
 
-/* line 209, ../PLITKI/src/sass/_general.sass */
+/* line 205, ../PLITKI/src/sass/_general.sass */
 .tiles .tile_5 {
   background: url(../img/5.png) center center/cover no-repeat;
 }
 
-/* line 211, ../PLITKI/src/sass/_general.sass */
+/* line 207, ../PLITKI/src/sass/_general.sass */
 .tiles .tile_6 {
   background: url(../img/6.png) center center/cover no-repeat;
 }
