@@ -373,6 +373,105 @@ nav {
   background: url(../img/6.png) center center/cover no-repeat;
 }
 
+/* line 225, ../PLITKI/src/sass/_general.sass */
+.elements {
+  background-color: #252525;
+  padding-top: 50px;
+}
+
+/* line 228, ../PLITKI/src/sass/_general.sass */
+.elements_header {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 59px;
+  color: #FECF00;
+  text-align: center;
+}
+
+/* line 234, ../PLITKI/src/sass/_general.sass */
+.form {
+  height: 774px;
+  background: #252525;
+  border: 10px dashed #FECF00;
+}
+
+/* line 238, ../PLITKI/src/sass/_general.sass */
+.form_header {
+  padding-top: 165px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 59px;
+  text-transform: uppercase;
+  color: #FECF00;
+}
+
+/* line 246, ../PLITKI/src/sass/_general.sass */
+.form_subheader {
+  margin-top: 177px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 253, ../PLITKI/src/sass/_general.sass */
+.form_block {
+  margin-top: 109px;
+  width: 536px;
+  height: 556px;
+  background: #FECF00;
+  border-radius: 85px;
+}
+
+/* line 259, ../PLITKI/src/sass/_general.sass */
+.contacts {
+  padding-top: 113px;
+  padding-bottom: 62px;
+}
+
+/* line 262, ../PLITKI/src/sass/_general.sass */
+.contacts_header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+
+/* line 267, ../PLITKI/src/sass/_general.sass */
+.contacts_address {
+  margin-top: 43px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #000000;
+}
+
+/* line 274, ../PLITKI/src/sass/_general.sass */
+.contacts_phone {
+  margin-top: 79px;
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* line 282, ../PLITKI/src/sass/_general.sass */
+.contacts_vk {
+  display: block;
+  margin-top: 79px;
+}
+
+/* line 285, ../PLITKI/src/sass/_general.sass */
+footer {
+  background-color: #474747;
+  height: 100px;
+}
+
 @media (max-width: 1200px) {
   /* line 2, ../PLITKI/src/sass/_media.sass */
   .promo_img {
